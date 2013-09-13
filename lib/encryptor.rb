@@ -5,8 +5,8 @@ class Encryptor
     }.join
   end
 
-  def decrypt string
-    encrypt string
+  def decrypt rotn, string
+    encrypt -rotn, string
   end
 
   private
